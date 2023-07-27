@@ -83,6 +83,7 @@ html,body{
 @media (max-width: 768px){
     .fotoym{
         grid-template-columns: 1fr;
+        margin-right:5px;
     }
 
     .logo{
