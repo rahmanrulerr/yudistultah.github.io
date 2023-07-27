@@ -67,10 +67,7 @@
 }
 
 @media (max-width: 368x){
-    .fotoym{
-        grid-template-columns: 1fr;
-        margin-right: 5px;
-    }
+    
     .logo{
         font-size: 20px;
     }

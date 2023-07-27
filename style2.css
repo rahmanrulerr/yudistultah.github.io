@@ -88,5 +88,8 @@ html,body{
     .logo{
         font-size: 45px;
     }
+    .fotoym img{
+        width: 350px;
+    }
 }
 
