@@ -57,19 +57,36 @@
     cursor: pointer;
 }
 
+.logos{
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    -webkit-text-fill-color:burlywood;
+    -webkit-text-stroke: 2px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: none;
+}
+
 @media(max-width: 768px){
+    .logos{
+        display: block;
+    }
     .logo{
-    font-size:45px;
+        display: none;
     }
     .foto{
         height: 180px;
     }
 }
 
-@media (max-width: 368x){
-    
+@media (max-width: 370x){
+    .logos{
+        display: block;
+    }
     .logo{
-        font-size: 20px;
+        display: none;
     }
     .foto{
         height: 180px;
