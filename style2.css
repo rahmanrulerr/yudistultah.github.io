@@ -79,3 +79,9 @@ html,body{
     -webkit-text-stroke: 2px black;
     cursor: pointer;
 }
+
+@media(max-width: 768px){
+    .logo{
+    font-size:45px;
+    }
+}
