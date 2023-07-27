@@ -56,3 +56,7 @@
     -webkit-text-stroke: 2px black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px){
+    font-size:45px;
+}
